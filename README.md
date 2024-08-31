@@ -1,24 +1,42 @@
-# README
+# EchoTube
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Welcome to Echotube, I have tried to implement project with video platform. 
 
-Things you may want to cover:
+  ______     _        _______    _          
+ |  ____|   | |      |__   __|  | |         
+ | |__   ___| |__   ___ | |_   _| |__   ___ 
+ |  __| / __| '_ \ / _ \| | | | | '_ \ / _ \
+ | |____ (__| | | | (_) | | |_| | |_) |  __/
+ |______\___|_| |_|\___/|_|\__,_|_.__/ \___|
 
-* Ruby version
 
-* System dependencies
+## Requirements
 
-* Configuration
+Please check the Gemfile to ruby and rails version.
 
-* Database creation
+## Installation
 
-* Database initialization
+You should have below installed requirements
+* [ruby](https://rvm.io/)
+* [rails](https://rvm.io/)
+* [postgres](https://www.postgresql.org/)
+* [node](https://nodejs.org/en)
 
-* How to run the test suite
+```
+bundle install
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+```
+npm install
+```
 
-* Deployment instructions
+## Usage
 
-* ...
+```
+./bin/dev
+```
+
+
+
+
+
