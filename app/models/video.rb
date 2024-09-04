@@ -9,4 +9,5 @@ class Video < ApplicationRecord
       query: "%#{search_query.to_s.downcase}%"
     )
   }
+  has_many :video_likes, dependent: :destroy
 end
