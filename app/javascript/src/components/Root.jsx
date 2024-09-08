@@ -18,11 +18,12 @@ const rootRouter = createBrowserRouter([
         errorElement: <Error />
     },
     {
-        path: "videos",
+        path: "videos/:id",
         element: (
-            <HeaderComponent>
+            <>
+                <HeaderComponent />
                 <VideoDetails />
-            </HeaderComponent>
+            </>
         ),
         errorElement: <Error />
     }

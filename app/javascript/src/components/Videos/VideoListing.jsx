@@ -47,7 +47,7 @@ const VideoListing = () => {
                             onClick={(e) => { e.preventDefault(); }}
                         >
                             <Link 
-                                to="/videos"
+                                to={`videos/${video.id}`}
                                 style={{ textDecoration: "none" }}
                             >
                                 <FilterVideoList video={video} />

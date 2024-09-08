@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { ToastNotification } from "../../utils/toast_notification";
+import { ToastNotification } from "../../../utils/toast_notification";
 
 const LoginUser = () => {
   const [formField, setFormField] = useState({

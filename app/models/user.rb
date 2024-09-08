@@ -5,6 +5,6 @@ class User < ApplicationRecord
 
   devise :database_authenticatable, :registerable,
          :jwt_authenticatable, jwt_revocation_strategy: self
-  has_many :videos, dependent: :destroy, inverse_of: :videos
+  has_many :videos, dependent: :destroy
   has_many :video_likes, dependent: :destroy
 end

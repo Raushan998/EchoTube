@@ -1,10 +1,8 @@
 import * as React from 'react';
-import { formatDistanceToNow } from 'date-fns';
+import { formattedDate } from '../../utils/FormattedDate';
 
 const FilterVideoList = ({video}) => {
-    const formattedDate = (date) =>{
-        return formatDistanceToNow(new Date(date), { addSuffix: true });
-    }
+    
     return(
         <>
            <div className="rounded-xl">
